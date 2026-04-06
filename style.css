@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+/* Search Bar */
+#search {
+    padding: 12px;
+    width: 60%;
+    margin: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* App Cards Container */
+#appContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    color: black;
+    width: 220px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+/* Hover effect (🔥 makes it look pro) */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Favorites section */
+#favorites {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+button {
+    padding: 6px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4a6cf7;
+    color: white;
+}
+
+/* Button hover */
+button:hover {
+    opacity: 0.8;
+}
