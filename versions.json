@@ -1,0 +1,22 @@
+{
+  "chrome": {
+    "version": 120,
+    "link": "https://www.google.com/chrome/"
+  },
+  "vscode": {
+    "version": 1.85,
+    "link": "https://code.visualstudio.com/"
+  },
+  "windows": {
+    "version": 11,
+    "link": "https://www.microsoft.com/windows"
+  },
+  "spotify": {
+    "version": 9,
+    "link": "https://www.spotify.com/"
+  },
+  "zoom": {
+    "version": 6,
+    "link": "https://zoom.us/download"
+  }
+}
