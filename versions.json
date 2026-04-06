@@ -18,5 +18,21 @@
   "zoom": {
     "version": 6,
     "link": "https://zoom.us/download"
+  },
+  "telegram": {
+    "version": 10,
+    "link": "https://telegram.org/"
+  },
+  "discord": {
+    "version": 15,
+    "link": "https://discord.com/download"
+  },
+  "notepad++": {
+    "version": 8.6,
+    "link": "https://notepad-plus-plus.org/downloads/"
+  },
+  "vlc": {
+    "version": 3.0,
+    "link": "https://www.videolan.org/vlc/"
   }
 }
