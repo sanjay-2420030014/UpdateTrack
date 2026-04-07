@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UpdateTrack</title>
+    <!-- Modern Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>UpdateTrack</h1>
-    <p>Track. Check. Stay Updated.</p>
+    <div class="app-wrapper">
+        <header class="navbar">
+            <div class="logo">
+                <h1><span class="gradient-text">Update</span>Track</h1>
+                <p class="subtitle">Track. Check. Stay Updated.</p>
+            </div>
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search" placeholder="Search apps..." onkeyup="searchApps()">
+            </div>
+        </header>
 
-    <input type="text" id="search" placeholder="🔍 Search apps..." onkeyup="searchApps()">
-    <h2>⭐ Favorites</h2>
-<div id="favorites"></div>
-    <div id="appContainer"></div>
+        <main class="dashboard">
+            <section class="section favorites-section">
+                <div class="section-header">
+                    <h2>⭐ Favorites</h2>
+                    <div class="divider"></div>
+                </div>
+                <div id="favorites"></div>
+            </section>
 
-<script src="script.js"></script>
+            <section class="section all-apps-section">
+                <div class="section-header">
+                    <h2>📦 All Applications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div id="appContainer"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Script must remain at bottom to access DOM elements -->
+    <script src="script.js"></script>
 </body>
 </html>
